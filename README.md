@@ -35,6 +35,12 @@ Other Tools: dotenv, REST APIs, CORS, JWT Authentication
 
 🔄 Scope for additional enhancements, advanced analytics, and deployment.
 
+
+<img width="1821" height="909" alt="Screenshot 2025-09-29 222004" src="https://github.com/user-attachments/assets/ee0ce4d7-e512-4984-88d0-06ff3cc91389" />
+
+
+<img width="1838" height="912" alt="Screenshot 2025-09-29 222028" src="https://github.com/user-attachments/assets/4c6256a1-ae65-4432-ab19-5532359e427e" />
+
 📍 Usage
 This prototype is designed to demonstrate feasibility and provide a foundation for scaling into a full product. It serves as a submission-ready version for SIH evaluation.
 

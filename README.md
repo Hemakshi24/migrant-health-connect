@@ -1,7 +1,7 @@
 
   # Migrant HealthConnect 
   🚀 Overview
-This repository contains the working prototype developed for the Smart India Hackathon (SIH) 2025 by the IILM University team. The solution demonstrates the core implementation of the proposed idea, showcasing both frontend and backend integration in a functional environment.
+This repository contains the working prototype developed for the Smart India Hackathon (SIH) 2025 by the Team Ideators. The solution demonstrates the core implementation of the proposed idea, showcasing both frontend and backend integration in a functional environment.
 
 ⚡ Key Highlights
 

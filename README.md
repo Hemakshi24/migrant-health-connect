@@ -1,8 +1,44 @@
 
-  # Migrant HealthConnect App Design
+  # Migrant HealthConnect 
+  🚀 Overview
+This repository contains the working prototype developed for the Smart India Hackathon (SIH) 2025 by the IILM University team. The solution demonstrates the core implementation of the proposed idea, showcasing both frontend and backend integration in a functional environment.
 
-  This is a code bundle for Migrant HealthConnect App Design. The original project is available at https://www.figma.com/design/G2E6MA0lf1zUHRpSOHFBf2/Migrant-HealthConnect-App-Design.
+⚡ Key Highlights
 
+End-to-end working prototype designed around the SIH problem statement.
+
+Frontend with responsive UI and interactive components.
+
+Backend APIs for authentication, user data, and database operations.
+
+Database integration for structured (PostgreSQL) and unstructured (MongoDB) data.
+
+Designed with scalability and modularity in mind for future expansion.
+
+🛠️ Tech Stack
+
+Frontend: React, TailwindCSS, Radix UI
+
+Backend: Node.js (Express.js)
+
+Databases: MongoDB + PostgreSQL
+
+Other Tools: dotenv, REST APIs, CORS, JWT Authentication
+
+📦 Prototype Status
+
+✅ Core features are functional and tested.
+
+✅ Backend connected with frontend for live data exchange.
+
+✅ Database schemas designed and integrated.
+
+🔄 Scope for additional enhancements, advanced analytics, and deployment.
+
+📍 Usage
+This prototype is designed to demonstrate feasibility and provide a foundation for scaling into a full product. It serves as a submission-ready version for SIH evaluation.
+
+  
   ## Running the code
 
   Run `npm i` to install the dependencies.

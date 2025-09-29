@@ -44,10 +44,4 @@ Other Tools: dotenv, REST APIs, CORS, JWT Authentication
 📍 Usage
 This prototype is designed to demonstrate feasibility and provide a foundation for scaling into a full product. It serves as a submission-ready version for SIH evaluation.
 
-  
-  ## Running the code
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  

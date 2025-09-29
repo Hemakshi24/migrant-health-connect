@@ -49,11 +49,14 @@
       },
      "dependencies": {
      "vite": "^5.0.0"
-
-
       },
+
+    "engines": {
+    "node": "18.x"
+    }
+ 
      "scripts": {
-  "build": "vite build"
-}
+     "build": "vite build"
+    }
 
   }

@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migrant HealthConnect - Digital Health Record System</title>
+    <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navigation for different interfaces -->
+    <input type="radio" id="overview-tab" name="interface" value="overview" checked hidden>
+    <input type="radio" id="worker-tab" name="interface" value="worker" hidden>
+    <input type="radio" id="doctor-tab" name="interface" value="doctor" hidden>
+    <input type="radio" id="government-tab" name="interface" value="government" hidden>
+
+    <!-- Overview Interface -->
+    <div class="interface-container overview-interface">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <div class="logo">
+                        <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <div class="header-text">
+                        <h1>Migrant HealthConnect</h1>
+                        <p>Digital Health Record System</p>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <span class="badge badge-green">System Online</span>
+                    <span class="badge badge-blue">424K+ Workers Registered</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-content">
+                <h2>Comprehensive Healthcare for Migrant Workers</h2>
+                <p class="hero-description">
+                    A unified digital platform providing healthcare access, medical records management, 
+                    and health monitoring for migrant workers across India with multilingual support.
+                </p>
+            </div>
+
+            <!-- Key Features -->
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon icon-blue">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Digital Health ID</h3>
+                    <p>Secure QR-based health cards with complete medical history</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon icon-green">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h3>Telemedicine</h3>
+                    <p>Remote consultations with multilingual support</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon icon-orange">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 20V10"/>
+                            <path d="m12 20V4"/>
+                            <path d="m6 20v-6"/>
+                        </svg>
+                    </div>
+                    <h3>AI Analytics</h3>
+                    <p>Predictive health insights and outbreak detection</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon icon-purple">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                    <h3>Multilingual</h3>
+                    <p>Support for Hindi, Bengali, Tamil, Malayalam, Odia</p>
+                </div>
+            </div>
+
+            <!-- Interface Showcase -->
+            <div class="interfaces-section">
+                <h3>System Interfaces</h3>
+                
+                <div class="interfaces-grid">
+                    <!-- Worker Mobile App -->
+                    <label for="worker-tab" class="interface-card">
+                        <div class="interface-header">
+                            <div class="interface-icon icon-blue">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                                    <path d="M12 18h.01"/>
+                                </svg>
+                            </div>
+                            <div class="interface-text">
+                                <h4>Worker Mobile App</h4>
+                                <p>Flutter/React Native UI</p>
+                            </div>
+                        </div>
+                        
+                        <div class="interface-preview mobile-preview">
+                            <img src="https://images.unsplash.com/photo-1542795126-6f5c1755a428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtaWdyYW50JTIwd29ya2VyJTIwY29uc3RydWN0aW9ufGVufDF8fHx8MTc1NzA5MDcwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Worker using mobile app">
+                            <div class="preview-overlay bg-blue">
+                                <div class="preview-content">
+                                    <svg class="preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                                        <path d="M12 18h.01"/>
+                                    </svg>
+                                    <p>Mobile Interface</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <ul class="interface-features">
+                            <li>• Digital Health Card with QR Code</li>
+                            <li>• Multilingual Support (5 Languages)</li>
+                            <li>• Health Records & Prescriptions</li>
+                            <li>• Video Consultation</li>
+                            <li>• Vaccination Tracking</li>
+                        </ul>
+                        
+                        <div class="interface-button btn-blue">
+                            View Mobile Interface
+                        </div>
+                    </label>
+
+                    <!-- Doctor Dashboard -->
+                    <label for="doctor-tab" class="interface-card">
+                        <div class="interface-header">
+                            <div class="interface-icon icon-green">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                    <path d="M8 21h8"/>
+                                    <path d="M12 17v4"/>
+                                </svg>
+                            </div>
+                            <div class="interface-text">
+                                <h4>Doctor Web Dashboard</h4>
+                                <p>Desktop Interface (1440px)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="interface-preview desktop-preview">
+                            <img src="https://images.unsplash.com/photo-1542868727-a1fc9a8a0ab8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwbWVkaWNhbCUyMGhvc3BpdGFsfGVufDF8fHx8MTc1NzA5MDcwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Doctor using dashboard">
+                            <div class="preview-overlay bg-green">
+                                <div class="preview-content">
+                                    <svg class="preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                        <path d="M8 21h8"/>
+                                        <path d="M12 17v4"/>
+                                    </svg>
+                                    <p>Doctor Dashboard</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <ul class="interface-features">
+                            <li>• Patient Lookup with QR Scan</li>
+                            <li>• Medical Records Management</li>
+                            <li>• Prescription & Report Upload</li>
+                            <li>• Consent Management</li>
+                            <li>• Analytics & Insights</li>
+                        </ul>
+                        
+                        <div class="interface-button btn-green">
+                            View Doctor Dashboard
+                        </div>
+                    </label>
+
+                    <!-- Government Dashboard -->
+                    <label for="government-tab" class="interface-card">
+                        <div class="interface-header">
+                            <div class="interface-icon icon-purple">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 20V10"/>
+                                    <path d="m12 20V4"/>
+                                    <path d="m6 20v-6"/>
+                                </svg>
+                            </div>
+                            <div class="interface-text">
+                                <h4>Government Analytics</h4>
+                                <p>Dark Mode Analytics</p>
+                            </div>
+                        </div>
+                        
+                        <div class="interface-preview desktop-preview dark-preview">
+                            <div class="preview-overlay bg-purple">
+                                <div class="preview-content">
+                                    <svg class="preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 20V10"/>
+                                        <path d="m12 20V4"/>
+                                        <path d="m6 20v-6"/>
+                                    </svg>
+                                    <p>Analytics Portal</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <ul class="interface-features">
+                            <li>• India Heatmap with Disease Clusters</li>
+                            <li>• AI Predictive Health Alerts</li>
+                            <li>• State/District Analytics</li>
+                            <li>• Vaccination Coverage Reports</li>
+                            <li>• Real-time Health Monitoring</li>
+                        </ul>
+                        
+                        <div class="interface-button btn-purple">
+                            View Analytics Portal
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="statistics-section">
+                <h3>System Impact</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number text-blue">424K+</div>
+                        <div class="stat-label">Registered Workers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number text-green">85%</div>
+                        <div class="stat-label">Health Coverage</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number text-orange">1.2M+</div>
+                        <div class="stat-label">Medical Records</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number text-purple">28</div>
+                        <div class="stat-label">States Covered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Worker Mobile Interface -->
+    <div class="interface-container worker-interface">
+        <label for="overview-tab" class="back-button">← Back to Overview</label>
+        
+        <div class="mobile-container">
+            <!-- Mobile Header -->
+            <div class="mobile-header">
+                <div class="mobile-header-content">
+                    <h1>HealthConnect</h1>
+                    <div class="mobile-header-actions">
+                        <button class="mobile-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 8l6 6"/>
+                                <path d="m4 14 6-6 2-3"/>
+                                <path d="m2 5 3-1 6 6"/>
+                                <path d="m19 5h-7"/>
+                            </svg>
+                        </button>
+                        <button class="mobile-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.07a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Digital Health Card -->
+                <div class="health-card">
+                    <div class="card-header">
+                        <div class="user-info">
+                            <img src="https://images.unsplash.com/photo-1542795126-6f5c1755a428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtaWdyYW50JTIwd29ya2VyJTIwY29uc3RydWN0aW9ufGVufDF8fHx8MTc1NzA5MDcwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Rajesh Kumar" class="user-photo">
+                            <div class="user-details">
+                                <h3>Rajesh Kumar</h3>
+                                <p>ID: MHC001234</p>
+                            </div>
+                        </div>
+                        <div class="qr-code">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="5" height="5"/>
+                                <rect x="16" y="3" width="5" height="5"/>
+                                <rect x="3" y="16" width="5" height="5"/>
+                                <path d="M21 16h-3a2 2 0 0 0-2 2v3"/>
+                                <path d="M21 21v.01"/>
+                                <path d="M12 7v3a2 2 0 0 1-2 2H7"/>
+                                <path d="M3 12h.01"/>
+                                <path d="M12 3h.01"/>
+                                <path d="M12 16v.01"/>
+                                <path d="M16 12h1"/>
+                                <path d="M21 12v.01"/>
+                                <path d="M12 21v-1"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <path d="M16 2v4"/>
+                                <path d="M8 2v4"/>
+                                <path d="M3 10h18"/>
+                            </svg>
+                            <span>DOB: 15/05/1996</span>
+                        </div>
+                        <div class="detail-item">
+                            <div class="blood-drop"></div>
+                            <span>B+</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-contact">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <span>Emergency: +91-9876543210</span>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <p>Migrant HealthConnect</p>
+                        <p>Scan QR for medical records</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="mobile-content">
+                <h2>Quick Actions</h2>
+                
+                <div class="actions-grid">
+                    <div class="action-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/>
+                            <path d="M16 13H8"/>
+                            <path d="M16 17H8"/>
+                            <path d="M10 9H8"/>
+                        </svg>
+                        <span>My Records</span>
+                    </div>
+                    
+                    <div class="action-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 7l-7 5 7 5V7z"/>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                        </svg>
+                        <span>Consult Doctor</span>
+                    </div>
+                    
+                    <div class="action-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/>
+                            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
+                        </svg>
+                        <span>Alerts</span>
+                        <span class="notification-badge">2</span>
+                    </div>
+                    
+                    <div class="action-card">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="5" height="5"/>
+                            <rect x="16" y="3" width="5" height="5"/>
+                            <rect x="3" y="16" width="5" height="5"/>
+                            <path d="M21 16h-3a2 2 0 0 0-2 2v3"/>
+                            <path d="M21 21v.01"/>
+                            <path d="M12 7v3a2 2 0 0 1-2 2H7"/>
+                            <path d="M3 12h.01"/>
+                            <path d="M12 3h.01"/>
+                            <path d="M12 16v.01"/>
+                            <path d="M16 12h1"/>
+                            <path d="M21 12v.01"/>
+                            <path d="M12 21v-1"/>
+                        </svg>
+                        <span>Scan QR</span>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="recent-activity">
+                    <h3>Recent Activity</h3>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon icon-green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <path d="M16 2v4"/>
+                                <path d="M8 2v4"/>
+                                <path d="M3 10h18"/>
+                            </svg>
+                        </div>
+                        <div class="activity-content">
+                            <p>Vaccination due reminder</p>
+                            <p>COVID-19 booster shot - March 20</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon icon-blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="1"/>
+                                <path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5z"/>
+                                <path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5z"/>
+                            </svg>
+                        </div>
+                        <div class="activity-content">
+                            <p>Medication reminder</p>
+                            <p>Take evening dose at 8 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Doctor Dashboard -->
+    <div class="interface-container doctor-interface">
+        <label for="overview-tab" class="back-button">← Back to Overview</label>
+        
+        <div class="dashboard-container">
+            <!-- Sidebar -->
+            <div class="dashboard-sidebar">
+                <div class="sidebar-header">
+                    <h2>Doctor Portal</h2>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-item active">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 20V10"/>
+                            <path d="m12 20V4"/>
+                            <path d="m6 20v-6"/>
+                        </svg>
+                        Dashboard
+                    </a>
+                    <a href="#" class="nav-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                        Patients
+                    </a>
+                    <a href="#" class="nav-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/>
+                            <path d="M16 13H8"/>
+                            <path d="M16 17H8"/>
+                            <path d="M10 9H8"/>
+                        </svg>
+                        Add Records
+                    </a>
+                    <a href="#" class="nav-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                        Reports
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="dashboard-main">
+                <!-- Header -->
+                <div class="dashboard-header">
+                    <h1>Doctor Dashboard</h1>
+                    <div class="dashboard-actions">
+                        <div class="search-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                            </svg>
+                            <input type="text" placeholder="Search patients...">
+                        </div>
+                        <button class="btn-outline">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="5" height="5"/>
+                                <rect x="16" y="3" width="5" height="5"/>
+                                <rect x="3" y="16" width="5" height="5"/>
+                                <path d="M21 16h-3a2 2 0 0 0-2 2v3"/>
+                                <path d="M21 21v.01"/>
+                                <path d="M12 7v3a2 2 0 0 1-2 2H7"/>
+                                <path d="M3 12h.01"/>
+                                <path d="M12 3h.01"/>
+                                <path d="M12 16v.01"/>
+                                <path d="M16 12h1"/>
+                                <path d="M21 12v.01"/>
+                                <path d="M12 21v-1"/>
+                            </svg>
+                            Scan QR
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <p>Total Patients</p>
+                                <p class="stat-value">328</p>
+                            </div>
+                            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <p>This Month</p>
+                                <p class="stat-value">67</p>
+                            </div>
+                            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <path d="M16 2v4"/>
+                                <path d="M8 2v4"/>
+                                <path d="M3 10h18"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <p>Active Cases</p>
+                                <p class="stat-value">23</p>
+                            </div>
+                            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <p>Follow-ups</p>
+                                <p class="stat-value">12</p>
+                            </div>
+                            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <path d="M14 2v6h6"/>
+                                <path d="M16 13H8"/>
+                                <path d="M16 17H8"/>
+                                <path d="M10 9H8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts and Recent Patients -->
+                <div class="dashboard-content">
+                    <div class="chart-card">
+                        <h3>Disease Distribution</h3>
+                        <div class="pie-chart">
+                            <!-- CSS-only pie chart representation -->
+                            <div class="chart-container">
+                                <div class="pie-slice slice-1" style="--percentage: 35;"></div>
+                                <div class="pie-slice slice-2" style="--percentage: 25;"></div>
+                                <div class="pie-slice slice-3" style="--percentage: 20;"></div>
+                                <div class="pie-slice slice-4" style="--percentage: 15;"></div>
+                                <div class="pie-slice slice-5" style="--percentage: 5;"></div>
+                            </div>
+                        </div>
+                        <div class="chart-legend">
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #007BFF;"></div>
+                                <span>Respiratory 35%</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #28A745;"></div>
+                                <span>Digestive 25%</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #FFC107;"></div>
+                                <span>Infectious 20%</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #DC3545;"></div>
+                                <span>Cardiovascular 15%</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background: #6C757D;"></div>
+                                <span>Others 5%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <h3>Monthly Patients</h3>
+                        <div class="bar-chart">
+                            <div class="bar" style="height: 75%;"><span>45</span></div>
+                            <div class="bar" style="height: 87%;"><span>52</span></div>
+                            <div class="bar" style="height: 80%;"><span>48</span></div>
+                            <div class="bar" style="height: 100%;"><span>61</span></div>
+                            <div class="bar" style="height: 92%;"><span>55</span></div>
+                            <div class="bar" style="height: 95%;"><span>67</span></div>
+                        </div>
+                        <div class="chart-labels">
+                            <span>Jan</span>
+                            <span>Feb</span>
+                            <span>Mar</span>
+                            <span>Apr</span>
+                            <span>May</span>
+                            <span>Jun</span>
+                        </div>
+                    </div>
+
+                    <div class="patients-card">
+                        <h3>Recent Patients</h3>
+                        <div class="patient-list">
+                            <div class="patient-item">
+                                <div class="patient-avatar">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="12" cy="7" r="4"/>
+                                    </svg>
+                                </div>
+                                <div class="patient-info">
+                                    <p class="patient-name">Rajesh Kumar</p>
+                                    <p class="patient-condition">Fever, Cough</p>
+                                </div>
+                                <span class="status-badge badge-green">Active</span>
+                            </div>
+                            
+                            <div class="patient-item">
+                                <div class="patient-avatar">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="12" cy="7" r="4"/>
+                                    </svg>
+                                </div>
+                                <div class="patient-info">
+                                    <p class="patient-name">Priya Sharma</p>
+                                    <p class="patient-condition">Vaccination</p>
+                                </div>
+                                <span class="status-badge badge-blue">Completed</span>
+                            </div>
+                            
+                            <div class="patient-item">
+                                <div class="patient-avatar">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="12" cy="7" r="4"/>
+                                    </svg>
+                                </div>
+                                <div class="patient-info">
+                                    <p class="patient-name">Mohammed Ali</p>
+                                    <p class="patient-condition">Chest Pain</p>
+                                </div>
+                                <span class="status-badge badge-orange">Follow-up</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Government Dashboard -->
+    <div class="interface-container government-interface">
+        <label for="overview-tab" class="back-button back-button-dark">← Back to Overview</label>
+        
+        <div class="gov-dashboard">
+            <!-- Header -->
+            <div class="gov-header">
+                <div class="gov-header-content">
+                    <div class="gov-header-left">
+                        <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                        <h1>Migrant Health Analytics Portal</h1>
+                    </div>
+                    <div class="gov-header-actions">
+                        <select class="gov-select">
+                            <option>All States</option>
+                            <option>Maharashtra</option>
+                            <option>Gujarat</option>
+                            <option>Karnataka</option>
+                            <option>Delhi</option>
+                        </select>
+                        <select class="gov-select">
+                            <option>All Districts</option>
+                            <option>Mumbai</option>
+                            <option>Pune</option>
+                            <option>Bangalore</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gov-content">
+                <!-- Main Panel -->
+                <div class="gov-main">
+                    <!-- Key Metrics -->
+                    <div class="gov-metrics">
+                        <div class="metric-card">
+                            <div class="metric-content">
+                                <div class="metric-info">
+                                    <p>Total Migrant Workers</p>
+                                    <p class="metric-value">424,000</p>
+                                    <p class="metric-change positive">+12% from last month</p>
+                                </div>
+                                <svg class="metric-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-content">
+                                <div class="metric-info">
+                                    <p>Health Coverage</p>
+                                    <p class="metric-value">85%</p>
+                                    <p class="metric-change positive">+5% from last month</p>
+                                </div>
+                                <svg class="metric-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-content">
+                                <div class="metric-info">
+                                    <p>Active Cases</p>
+                                    <p class="metric-value">1,247</p>
+                                    <p class="metric-change negative">+23 from yesterday</p>
+                                </div>
+                                <svg class="metric-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-content">
+                                <div class="metric-info">
+                                    <p>Vaccination Rate</p>
+                                    <p class="metric-value">88%</p>
+                                    <p class="metric-change positive">+2% from last week</p>
+                                </div>
+                                <svg class="metric-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 7l-7 5 7 5V7z"/>
+                                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Heatmap and Charts -->
+                    <div class="gov-charts">
+                        <div class="heatmap-card">
+                            <h3>Migrant Worker Distribution & Health Clusters</h3>
+                            <div class="india-heatmap">
+                                <!-- Simplified India representation -->
+                                <div class="map-container">
+                                    <div class="hotspot mumbai" title="Mumbai - High Density">
+                                        <div class="tooltip">Mumbai: 45K workers</div>
+                                    </div>
+                                    <div class="hotspot delhi" title="Delhi - Medium Density">
+                                        <div class="tooltip">Delhi: 45K workers</div>
+                                    </div>
+                                    <div class="hotspot bangalore" title="Bangalore - Medium Density">
+                                        <div class="tooltip">Bangalore: 89K workers</div>
+                                    </div>
+                                    <div class="hotspot gujarat" title="Gujarat - High Density">
+                                        <div class="tooltip">Gujarat: 98K workers</div>
+                                    </div>
+                                    <div class="hotspot chennai" title="Chennai - Low Risk">
+                                        <div class="tooltip">Chennai: 67K workers</div>
+                                    </div>
+                                </div>
+                                <div class="map-legend">
+                                    <div class="legend-item">
+                                        <div class="legend-dot high-risk"></div>
+                                        <span>High Risk Areas</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-dot medium-risk"></div>
+                                        <span>Medium Risk Areas</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-dot low-risk"></div>
+                                        <span>Low Risk Areas</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="trends-card">
+                            <h3>Disease Trends (6 Months)</h3>
+                            <div class="line-chart">
+                                <!-- CSS-only line chart -->
+                                <div class="chart-lines">
+                                    <div class="line respiratory"></div>
+                                    <div class="line infectious"></div>
+                                    <div class="line digestive"></div>
+                                    <div class="line cardiovascular"></div>
+                                </div>
+                                <div class="chart-grid"></div>
+                            </div>
+                            <div class="chart-legend">
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #3B82F6;"></div>
+                                    <span>Respiratory</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #EF4444;"></div>
+                                    <span>Infectious</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #10B981;"></div>
+                                    <span>Digestive</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #F59E0B;"></div>
+                                    <span>Cardiovascular</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vaccination and Risk Charts -->
+                    <div class="gov-charts-row">
+                        <div class="vaccination-card">
+                            <h3>Vaccination Coverage by State</h3>
+                            <div class="vaccination-bars">
+                                <div class="vax-bar">
+                                    <span class="vax-label">Delhi</span>
+                                    <div class="vax-progress">
+                                        <div class="vax-fill" style="width: 92%;"></div>
+                                    </div>
+                                    <span class="vax-value">92%</span>
+                                </div>
+                                <div class="vax-bar">
+                                    <span class="vax-label">Maharashtra</span>
+                                    <div class="vax-progress">
+                                        <div class="vax-fill" style="width: 88%;"></div>
+                                    </div>
+                                    <span class="vax-value">88%</span>
+                                </div>
+                                <div class="vax-bar">
+                                    <span class="vax-label">Karnataka</span>
+                                    <div class="vax-progress">
+                                        <div class="vax-fill" style="width: 85%;"></div>
+                                    </div>
+                                    <span class="vax-value">85%</span>
+                                </div>
+                                <div class="vax-bar">
+                                    <span class="vax-label">Tamil Nadu</span>
+                                    <div class="vax-progress">
+                                        <div class="vax-fill" style="width: 90%;"></div>
+                                    </div>
+                                    <span class="vax-value">90%</span>
+                                </div>
+                                <div class="vax-bar">
+                                    <span class="vax-label">Gujarat</span>
+                                    <div class="vax-progress">
+                                        <div class="vax-fill" style="width: 87%;"></div>
+                                    </div>
+                                    <span class="vax-value">87%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="risk-card">
+                            <h3>Risk Assessment Distribution</h3>
+                            <div class="risk-donut">
+                                <div class="donut-chart">
+                                    <div class="donut-segment high" style="--percentage: 15;"></div>
+                                    <div class="donut-segment medium" style="--percentage: 35;"></div>
+                                    <div class="donut-segment low" style="--percentage: 50;"></div>
+                                </div>
+                            </div>
+                            <div class="risk-legend">
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #DC3545;"></div>
+                                    <span>High Risk 15%</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #FFC107;"></div>
+                                    <span>Medium Risk 35%</span>
+                                </div>
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: #28A745;"></div>
+                                    <span>Low Risk 50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="gov-sidebar">
+                    <!-- AI Alerts -->
+                    <div class="alerts-section">
+                        <h3>AI Predictive Alerts</h3>
+                        <div class="alert-item alert-high">
+                            <div class="alert-header">
+                                <span class="alert-badge high">High</span>
+                                <span class="alert-date">2024-03-15</span>
+                            </div>
+                            <h4>Dengue Fever</h4>
+                            <p>Mumbai, Maharashtra</p>
+                            <div class="alert-stats">
+                                <p>Total Cases: 23</p>
+                                <p>Migrant Workers: 15</p>
+                            </div>
+                        </div>
+                        
+                        <div class="alert-item alert-medium">
+                            <div class="alert-header">
+                                <span class="alert-badge medium">Medium</span>
+                                <span class="alert-date">2024-03-14</span>
+                            </div>
+                            <h4>Respiratory Infection</h4>
+                            <p>Delhi NCR</p>
+                            <div class="alert-stats">
+                                <p>Total Cases: 45</p>
+                                <p>Migrant Workers: 28</p>
+                            </div>
+                        </div>
+                        
+                        <div class="alert-item alert-medium">
+                            <div class="alert-header">
+                                <span class="alert-badge medium">Medium</span>
+                                <span class="alert-date">2024-03-13</span>
+                            </div>
+                            <h4>Food Poisoning</h4>
+                            <p>Bangalore, Karnataka</p>
+                            <div class="alert-stats">
+                                <p>Total Cases: 12</p>
+                                <p>Migrant Workers: 8</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Reports -->
+                    <div class="reports-section">
+                        <h3>Quick Reports</h3>
+                        <button class="report-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <path d="M14 2v6h6"/>
+                                <path d="M16 13H8"/>
+                                <path d="M16 17H8"/>
+                                <path d="M10 9H8"/>
+                            </svg>
+                            Export CSV Data
+                        </button>
+                        <button class="report-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <path d="M14 2v6h6"/>
+                                <path d="M16 13H8"/>
+                                <path d="M16 17H8"/>
+                                <path d="M10 9H8"/>
+                            </svg>
+                            Generate PDF Report
+                        </button>
+                        <button class="report-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 20V10"/>
+                                <path d="m12 20V4"/>
+                                <path d="m6 20v-6"/>
+                            </svg>
+                            Vaccination Coverage
+                        </button>
+                        <button class="report-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 20V10"/>
+                                <path d="m12 20V4"/>
+                                <path d="m6 20v-6"/>
+                            </svg>
+                            Disease Statistics
+                        </button>
+
+                        <div class="system-status">
+                            <h4>System Status</h4>
+                            <div class="status-item">
+                                <span>Data Sync</span>
+                                <span class="status-badge live">Live</span>
+                            </div>
+                            <div class="status-item">
+                                <span>AI Analysis</span>
+                                <span class="status-badge active">Active</span>
+                            </div>
+                            <div class="status-item">
+                                <span>Last Update</span>
+                                <span class="status-time">2 min ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Multilingual Chatbot -->
+    <div class="chatbot-container">
+        <input type="checkbox" id="chatbot-toggle" class="chatbot-checkbox" hidden>
+        
+        <!-- Chat Button -->
+        <label for="chatbot-toggle" class="chatbot-button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+        </label>
+
+        <!-- Chat Window -->
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <div class="chatbot-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                    <span>Health Assistant</span>
+                </div>
+                <div class="chatbot-controls">
+                    <select class="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">हिंदी</option>
+                        <option value="bn">বাংলা</option>
+                        <option value="ta">தமிழ்</option>
+                        <option value="ml">മലയാളം</option>
+                        <option value="or">ଓଡ଼ିଆ</option>
+                    </select>
+                    <label for="chatbot-toggle" class="close-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m18 6-12 12"/>
+                            <path d="m6 6 12 12"/>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hello! I'm your health assistant. How can I help you today?
+                    </div>
+                </div>
+                <div class="message user-message">
+                    <div class="message-content">
+                        How do I book an appointment?
+                    </div>
+                </div>
+                <div class="message bot-message">
+                    <div class="message-content">
+                        To book an appointment, please go to 'Consult Doctor' section in your app.
+                    </div>
+                </div>
+            </div>
+
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="send-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
